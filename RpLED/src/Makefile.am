@@ -1,0 +1,2 @@
+bin_PROGRAMS=RpLED
+RpLED_SOURCES=RpLED.cpp RaspPiGPIO.cpp
