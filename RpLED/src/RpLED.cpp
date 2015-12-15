@@ -23,11 +23,16 @@ int main( int argc, char **argv )
 	
 	gpio.SetAsOutput( 17 );
 	
-	gpio.SetHigh( 17 );
-	
-	sleep( 1 );
-	
-	gpio.SetLow( 17 );
+	for ( int i = 0; i < 3; i++ )
+	{
+		
+		gpio.SetHigh( 17 );
+		
+		sleep( 1 );
+		
+		gpio.SetLow( 17 );
+		
+	}
 		
 	return 0;
 	
